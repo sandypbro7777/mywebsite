@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Unique_login</title>
+</head>
+<body>
+
+
+<div class="container">
+
+<div class="message">
+	<h4>Login <br></h4>
+	<p>This is our virtual community platform. We think you want to join with us.
+	 Fill the form to be our community member.</p>
+</div>
+
+<div>
+<form>
+	<div class="user username">
+	<input type="username" name="username" placeholder="username" /required>
+    </div>
+
+    <div class="user password">
+	<input type="password" name="password" placeholder="password" /required>
+    </div>
+
+    <div class="button">
+	<input id="btn" type="submit" name="login" value="Login">
+    </div>
+
+    <div class="fp">
+	<a href="#">forget password?</a>
+	</div>
+
+	<div class="create-account">
+    <p>Don't have account? <a href="#">Signup here</a></p>
+	</div>
+	
+	<div class="sacc">
+	<p>login with: <br><br>
+	<a href="#" >facebook</a>
+	<a href="#" >twitter</a>
+	<a href="#" >linkden</a>
+	<a href="#" >telegram</a>
+	</p>
+	</div>
+</form>
+</div>
+
+</div>
+
+
+
+
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: monospace;
+	}
+	.container{
+	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/*text-align: center;*/
+	z-index: 1;
+	padding: 0 30px;
+	color: #1b1b1b;
+	border-radius: 5px;
+	background: #3a3a3a;
+	padding: 10px;
+	width: 700px;
+	}
+	.container > div{
+	width:auto;
+	}
+	.message{
+		padding: 0 5px 0 5px;
+	/*	border: 1px solid black;*/
+		width: 300;
+		background: none;
+		}
+	h4{
+		margin: 10px 0;
+		font-weight: 400;
+		font-size: 20px;
+		color:white;
+		font-weight:700;
+	}
+	p{
+		margin:10px 0;
+		color:white;
+	}
+	form{
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    background:none;
+    width:350px;
+    
+	}
+	input{
+        margin: 5px 0;
+		padding: 10px 5px 10px 5px;
+		width: 100%;
+		border: 1px solid black;
+		outline: none;
+		font-size:17px;
+		border-top:none;
+		border-left:none;
+		border-right:none;
+		background:white;
+		color:black;
+	}
+	.user{
+	
+	}
+	.button{
+		text-align: right;
+		font-size:10px;
+		background:none;
+	}
+	#btn{
+	font-size:15px;
+	background:lightgrey;
+	margin: 5px 0;
+	padding: 10px 5px;
+	width: 100%;
+	border: 1px solid black;
+	outline: none;
+	font-size:17px;
+	}
+	#btn a{
+	text-decoration:none;
+	background:none;
+	color:white;
+	}
+	.fp{
+		text-align: left;
+		margin: 5px 0;
+		background:none;
+	}
+	.fp a{
+	color:grey;
+	}
+	.create-account{
+		margin-top:10px;
+		padding: 0 0px 0 0;
+		border: 1px solid white;
+		text-align: center;
+		background:none;
+	}
+	.create-account a{
+		text-align: center;
+		background:none;
+		color:green;
+	}
+    .sacc a{
+    color:lightgrey;
+    }
+	@media screen and (max-width:  600px){
+		.container{
+			display: block;
+			width: 350px;
+		}
+		.message{
+		margin:20px 0 30px 0;
+		border:none;
+		}
+		form{
+		border: 1px solid white;
+		padding: 10px;
+		text-align: center;
+		background:transparent;
+		width:auto;
+		}
+
+        input{
+		margin: 5px 0;
+		padding: 10px 5px;
+		width: 100%;
+		border: 1px solid black;
+		outline: none;
+		font-size:17px;
+		background:white;
+		color:black;
+	}
+	#btn{
+	border:1px solid black;
+	background:lightgrey;
+	}
+	#btn a{
+	color:white;
+	}
+	}
+</style>
+</body>
+</html>

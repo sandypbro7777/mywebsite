@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>unique_contactus</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Unique_login</title>
+</head>
+<body>
+
+	<div class="navbar">
+		<div class="first-part">
+		    <ul>
+			    <li><a href="unique_home.html" >Home</a></li>
+				<li><a href="unique_blog.html">Blog</a></li>
+				<li><a href="unique_about.html">About</a></li>
+				<li><a href="unique_contact.html" id="active" >Contact</a></li>
+				<li><a href="unique_faq.html">FAQ</a></li>
+			</ul>
+		</div>
+		<div class="second-part">
+			<input type="search" placeholder="search here...">
+			<button class="ssubmit" name="submit">Search</button>
+		</div>
+		<div class="third-part">
+			<li><a href="#">Login</a></li>
+			<li><a href="#">Signup</a></li>
+		</div>
+	</div>
+
+
+<div class="container">
+
+<div class="message">
+	<h4>Contact Us <br></h4>
+	<p>You have any queries or feedback related to this website?
+	You can contact through this page.</p>
+	 <p>Elaborate your concern and hit the send button.</p>
+</div>
+
+<div>
+<form>
+	<div class="user username">
+	<input type="text" name="username" placeholder="username or emali" /required>
+    </div>
+
+    <div class="user phone">
+	<input type="number" name="phone" placeholder="phone" /required>
+    </div>
+    
+    
+    <div class="user comment">
+    <textarea type="text" name="user-comment" placeholder="elaborate your concern" /required></textarea>
+    </div>
+
+	
+	<div class="button">
+	<input id="btn" type="submit" name="send" value="Send">
+	</div>
+	
+	<div class="fp">
+	<a href="#"></a>
+	</div>
+</form>
+</div>
+</div>
+
+<div class="footer">
+<p>unique_sand.com | copyright 2023 | All Right Reserved.</p>
+</div>
+
+	
+
+
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: sans-serif;
+		background: blueviolet;
+	}
+	.container{
+	display: flex;
+	position: relative;
+	/*transform: translate(-50%, -50%);*/
+	/*text-align: center;*/
+	/*z-index: 1;*/
+	padding:10 30px;
+	color: #1b1b1b;
+	border-radius: 5px;
+	/*background: #3a3a3a;*/
+	background: blueviolet;
+	padding: 10px;
+	width: 600px;
+	color:white;
+	margin: 50px auto;
+	place-items: center ;
+	}
+	.container > div{
+	width:auto;
+	}
+	.message{
+		padding: 0 5px 0 5px;
+		border: none;
+		width: 300;
+		background: none;
+		color:white;
+		margin:20px 0 30px 0;
+		}
+	h4{
+		margin: 10px 0;
+		font-weight: 400;
+		font-size: 20px;
+		font-weight:700;
+		background: none;
+	}
+	p{
+		margin:10px 0 ;
+		background: none;z
+	}
+	form{
+    border: 1px solid white;
+    padding: 20px 10px;
+    text-align: center;
+    background: none;
+    width:300px;
+    
+	}
+	input{
+        margin: 5px 0;
+		padding: 5px 5px 5px 5px;
+		width: 100%;
+		border: 1px solid white;
+		outline: none;
+		font-size:17px;
+		border-top:none;
+		border-left:none;
+		border-right:none;
+		background:white;
+		color:black;
+	}
+	.user{
+	
+	}
+	textarea{
+	border:1px solid white;
+	margin:5px 0;
+	height:100px;
+	width:100%;
+	padding:5px;
+	font-size:17px;
+	resize:none;
+	overflow: auto;
+	outline:none;
+	background: white;
+	}
+	.button{
+		text-align: right;
+		font-size:10px;
+		background:none;
+	}
+	#btn{
+	font-size:15px;
+	background:black;
+	margin: 5px 0;
+	padding: 10px 5px;
+	width: 100%;
+	border: none;
+	outline: none;
+	font-size:17px;
+    background:lightgrey;
+    color:black;
+	}
+	#btn a{
+	text-decoration:none;
+	background:none;
+	}
+	.fp{
+		text-align: left;
+		margin: 5px 0;
+		background:none;
+	}
+/*	.rate-us{
+		margin:0px 0 10px 0;
+		padding: 0 0px 0 0;
+		border: 1px solid white;
+		text-align: center;
+		background:none;
+	}
+	.rate-us a{
+		text-align: center;
+		background:gold;
+		color:black;
+		font-size:16px;
+		text-decoration:none;
+		margin:3px;
+		padding:3px;
+		border-radius:50px;
+		font-weight:800;
+	}
+*/
+	    .navbar{
+    	display: flex;
+    	justify-content: space-around;
+    	height: 55px;
+    	background: none;
+    	width: 100%;
+    	color: black;
+    	align-items: center;
+    	padding: 4px;
+    }
+    .first-part ul{
+    	display: flex;
+    	background: none;
+    }
+    .first-part li{
+    	list-style: none;
+    	margin: 0 0px;
+    	background: none;
+    }
+    .first-part a{
+    	padding: 18px 10px;
+    	background: none;
+    	width: 100px;
+    	text-decoration: none;
+    	font-weight: 550;
+    	font-size: 16px;
+    	color: white;
+    }
+    .first-part a:hover{
+    	background: cyan;
+    	color: black;
+    }
+    .first-part .active{
+
+    }
+
+    #active{
+    	border-bottom: 2px solid blue;
+    	background: cyan;
+    	color: black;
+    }
+    .third-part{
+    	display: flex;
+    }
+    .second-part{
+    	background: none;
+    }
+    .second-part input{
+    	margin: 0xpx;
+    	align-items: center;
+    	padding: 8px 10px;
+    	width: 350px;
+    	font-size: 15px;
+    	outline: none;
+    }
+    .third-part li{
+    	list-style: none;
+    	align-items: center;
+    	background: none;
+
+    }
+    .third-part li a{
+    	align-items: center;
+    	background:none;
+    	text-decoration: none;
+    	color: white;
+    	padding: 18px 10px;
+    }
+    .third-part li a:hover{
+    	background: cyan;
+    	color: black;
+    }
+    .ssubmit{
+    	padding: 8px;
+    	font-size: 15px;
+    	background: white;
+    	border: 1px solid blueviolet;
+    }
+
+    .section-first h2{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .footer{
+    	background: grey;
+    	padding: 10px;
+    	color: white;
+        margin-bottom: 10px;
+        position:relative;
+    }
+    .footer p{
+    	text-align: center;
+    	font-size: 15px;
+    	background: none;
+    }
+
+
+
+
+
+
+
+	@media screen and (max-width:  600px){
+		.container{
+			display: block;
+			width: 350px;
+		}
+		form{
+		border: 1px solid white;
+		padding: 10px;
+		text-align: center;
+		background:transparent;
+		width:auto;
+		}
+        input{
+		margin: 5px 0;
+		padding: 5px 5px;
+		width: 100%;
+		border: 1px solid white;
+		outline: none;
+		font-size:17px;
+		background:white;
+		color:black;
+	}
+	#btn{
+	border:1px solid black;
+	background:lightgrey;
+	padding: 8px 5px;
+	}
+	}
+
+@media (max-width: 900px){
+	.second-part{
+		display: none;
+	}
+}
+</style>
+</body>
+</html>
+
+</body>
+</html>

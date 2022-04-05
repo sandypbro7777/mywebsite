@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Unique_faq</title>
+</head>
+<body>
+
+
+	<div class="navbar">
+		<div class="first-part">
+		    <ul>
+			    <li><a href="unique_home.html" >Home</a></li>
+				<li><a href="unique_blog.html" >Blog</a></li>
+				<li><a href="unique_about.html">About</a></li>
+				<li><a href="unique_contact.html" >Contact</a></li>
+				<li><a href="unique_faq.html" id="active">FAQ</a></li>
+			</ul>
+		</div>
+		<div class="second-part">
+			<input type="search" placeholder="search here...">
+			<button class="ssubmit" name="submit">Search</button>
+		</div>
+		<div class="third-part">
+			<li><a href="#">Login</a></li>
+			<li><a href="#">Signup</a></li>
+		</div>
+	</div>
+
+
+<div class="section-first">
+<h2>Empty World.</h2>
+</div>
+
+
+	<div class="footer">
+		<p>Copyright 2022 | UniqueSAND | All Right Reserved.</p>
+	</div>
+
+
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: sans-serif;
+	}
+    .navbar{
+    	display: flex;
+    	justify-content: space-around;
+    	height: 55px;
+    	background: gold;
+    	width: 100%;
+    	color: black;
+    	align-items: center;
+    	padding: 4px;
+    }
+    .first-part ul{
+    	display: flex;
+    }
+    .first-part li{
+    	list-style: none;
+    	margin: 0 0px;
+    	background: none;
+    }
+    .first-part a{
+    	padding: 18px 10px;
+    	background: none;
+    	width: 100px;
+    	text-decoration: none;
+    	font-weight: 550;
+    }
+    .first-part a:hover{
+    	background: cyan;
+    	color: black;
+    }
+    .first-part .active{
+
+    }
+
+    #active{
+    	border-bottom: 2px solid blue;
+    	background: cyan;
+    	color: black;
+    }
+    .third-part{
+    	display: flex;
+    }
+    .second-part input{
+    	margin: 0xpx;
+    	align-items: center;
+    	padding: 8px 10px;
+    	width: 350px;
+    	font-size: 15px;
+    	outline: none;
+    }
+    .third-part li{
+    	list-style: none;
+    	align-items: center;
+    	background: red;
+
+    }
+    .third-part li a{
+    	align-items: center;
+    	background: yellow;
+    	text-decoration: none;
+    	padding: 18px 10px;
+    }
+    .third-part li a:hover{
+    	background: cyan;
+    }
+    .ssubmit{
+    	padding: 8px;
+    	font-size: 15px;
+    }
+
+    .section-first h2{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .footer{
+    	background: black;
+    	padding: 15px;
+    	color: white;
+        bottom: 0;
+    }
+    .footer p{
+    	text-align: center;
+    }
+
+
+
+
+
+
+
+@media (max-width: 900px){
+	.second-part{
+		display: none;
+	}
+}
+</style>
+</body>
+</html>
